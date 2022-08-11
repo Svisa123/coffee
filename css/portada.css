@@ -1,0 +1,44 @@
+.portada-img {
+    width: 100%;
+    max-height: 750px;
+    height: 750px;
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+  }
+  
+  .content-img {
+    position: absolute;
+    width: 850px;
+    margin-left: 100px;
+    top: 160px;
+    color: white;
+  }
+  
+  .content-img h1 {
+    font-size: 110px;
+    margin: 0;
+    margin-top: 50px;
+  }
+  
+  .content-img p {
+    font-size: 25px;
+    width: 75%;
+    margin-bottom: 60px;
+  }
+  .portada-btn {
+    background-color: #0b8684;
+    font-size: 25px;
+    user-select: none;
+    cursor: pointer;
+    color: white;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s;
+  }
+  
+  
+  .portada-btn:hover{
+    padding: 17px 32px;
+  }

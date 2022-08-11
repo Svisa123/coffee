@@ -1,0 +1,44 @@
+.container-top {
+    display: flex;
+    align-content: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 70px;
+  }
+  
+  .container-top h1 {
+    color: #333a42;
+    font-family: "Literata", serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bolder;
+  }
+  
+  .content-top {
+    display: flex;
+    width: 100%;
+    margin: 0 70px;
+    justify-content: space-between;
+  }
+  .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 60%;
+  }
+  
+  .navigation ul {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .navigation ul li {
+    list-style: none;
+    text-align: center;
+  }
+  
+ 
